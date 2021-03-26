@@ -6,8 +6,7 @@ class Template
 
 	function __construct($template)
 	{
-		$this->template = $template;
-		$this->content = $this->getContent();
+		$this->setTemplate($template);
 	}
 
 	function setTemplate($template)
